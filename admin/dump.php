@@ -1,0 +1,31 @@
+<?php
+//echo "The desired row: ";
+echo "<br>";
+echo "<table border='1' >";
+echo "<tr>";
+echo "<td>";
+echo "Reference Table";
+echo "</td>";
+echo "</tr>";
+echo "<tr class='alt'>";
+echo "<td>" ."Busid". "</td>";
+echo "<td>" .$busid. "</td>";
+echo "</tr>";
+echo "<tr>";
+echo "<td>" ."Bus Registration Number". "</td>";
+echo "<td>" .$busregno. "</td>";
+echo "</tr>";
+echo "<tr class='alt'>";
+echo "<td>" ."Capacity". "</td>";
+echo "<td>" .$capacity. "</td>";
+echo "</tr>";
+echo "<tr>";
+echo "<td>" ."Bustype". "</td>";
+echo "<td>" .$bustype. "</td>";
+echo "</tr>";
+echo "<tr class='alt'>";
+echo "<td>" ."Fare". "</td>";
+echo "<td>" .$fare. "</td>";
+echo "</tr>";
+echo "<br>";
+?>

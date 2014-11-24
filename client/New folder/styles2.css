@@ -1,0 +1,44 @@
+#wrapper { width:900px;
+		   margin:10px auto;
+		   background-color:#FDFFF0;}
+body {background-color:#FDFFF0; 
+	  font-family:Arial, Helvetica, sans-serif;}
+h1, h2, h3 { font-family:Arial, Helvetica, sans-serif;
+			 color:#933;}
+		 
+#top{margin:10px 0; background-color:#F90;}
+#logo { float:left; margin:5px 0;}
+#social_media{ float:right; margin:5px 0;}
+#social_media ul li {display:inline;
+					 list-style-type:none;}
+#social_media p {text-align:right;}				
+#navbar {clear:both;}
+#navbar ul { padding:15px 0; margin:0;
+			 border-top:1px #999999 double;
+		   }
+#navbar ul li { /*display:inline;*/ list-style-type:none; 
+				margin: 0 20px 0 0; }
+#navbar a:link { font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000;}
+#navbar a:visited {font-weight:bold; text-decoration:none;text-transform:uppercase; color:#000;}
+#navbar a:active {font-weight:bold; text-decoration:none;text-transform:uppercase; color:#000;}
+#navbar a:hover {font-weight:bold; text-decoration:none;text-transform:uppercase; color:#F63;}
+#navbar a:focus {font-weight:bold; text-decoration:none;text-transform:uppercase; color:#F63;}
+
+				
+#content { float:left; width:500px;}
+#content p { font-size:10px; line-height:100%; }
+#content h2 { color:#663;}
+#box1{ float:left; width:200px;
+	   margin-right:20px;}
+#box2{ float:left; width:200px;}
+
+#rightside { float:right; width:200px;}
+
+#footer { clear:both;
+   		  padding:10px 0;
+		  border-top:1px #999999 double;
+		}
+#footer {text-align:center; font-size:14px; font-weight:bold; }
+
+
+

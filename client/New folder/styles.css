@@ -1,0 +1,20 @@
+/* CSS Document */
+* {margin:0; padding:0; border:0;}
+.error { color:#F00 }
+
+
+#wrapper {	width:900px;
+			margin:20px auto;}
+
+#top {padding:20px 0; background-color:#F90;}
+#navbar { float:left; width:150px;}
+#content {margin-left:150px;
+		  padding:0 20px;}
+ul li{list-style-type:none;}
+#footer {padding:20px 0;
+		 margin-top:20px;}
+
+
+
+
+

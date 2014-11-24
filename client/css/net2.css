@@ -1,0 +1,212 @@
+ul, ol, dl 
+{ 
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar2  {
+  float: left;
+  width: 20%;
+  background-color: #333;
+  padding-bottom: 10px;
+}
+
+
+ul.nav 
+{	list-style: none;
+	border-top: 1px solid #666;
+	margin-bottom: 15px;
+}
+
+ul.nav li 
+{	border-bottom: 1px solid #666; 
+	font-family: 90% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+}
+
+
+ul.nav a, ul.nav a:visited 
+{ 	padding: 5px 5px 5px 15px;
+	display: block;
+	text-decoration: none;
+	background-color: #333;
+	/*border-bottom: 1px solid #393939;*/
+	color: #ccc;
+	/*margin: 0;
+	padding: 8px 12px;
+	font-weight: normal;*/
+}
+
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus 
+{ /* this changes the background and text color for both mouse and keyboard navigators */
+	/*background-color: #6F7D94;*/
+	background: #2580a2;
+	color: #FFF;
+}
+
+body {
+	font: 100%/1.4;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #4E5869;
+	/*margin: 0;
+	padding: 0;*/
+	color: #000;
+}
+
+.container {
+	max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+	min-width: 780px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background-color: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+}
+
+
+
+#topbar ul {
+  margin: 0;
+  padding: 0;
+}
+#topbar li {
+  margin: 0;
+  padding: 0;
+}
+#topbar a {
+  margin: 0;
+  padding: 0;
+}
+#topbar ul {
+  list-style: none;
+}
+#topbar a {
+  text-decoration: none;
+}
+#topbar {
+  height: 60px;
+  background-color: #493F56;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+  width: auto;
+}
+#topbar > img {
+float: left;
+  position: relative;
+
+}
+#topbar > ul > li {
+  float: right;
+  margin-right: 15px;
+  position: relative;
+}
+#topbar > ul > li > a {
+  color: #a0a0a0;
+  font-family: Verdana, 'Lucida Grande';
+  font-size: 15px;
+  line-height: 60px;
+  padding: 15px 20px;
+  -webkit-transition: color .15s;
+  -moz-transition: color .15s;
+  -o-transition: color .15s;
+  transition: color .15s;
+}
+#topbar > ul > li > a:hover {
+  color: #ffffff;
+}
+#topbar > ul > li > ul {
+  opacity: 0;
+  visibility: hidden;
+  padding: 16px 0 20px 0;
+  background-color: #fafafa;
+  text-align: left;
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  margin-left: -90px;
+  width: 180px;
+  -webkit-transition: all .3s .1s;
+  -moz-transition: all .3s .1s;
+  -o-transition: all .3s .1s;
+  transition: all .3s .1s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+}
+#topbar > ul > li:hover > ul {
+  opacity: 1;
+  top: 55px;
+  visibility: visible;
+}
+#topbar > ul > li > ul:before {
+  content: '';
+  display: block;
+  border-color: transparent transparent #fafafa transparent;
+  border-style: solid;
+  border-width: 10px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -10px;
+}
+#topbar > ul ul > li {
+  position: relative;
+}
+#topbar ul ul a {
+  color: #323232;
+  font-family: Verdana, 'Lucida Grande';
+  font-size: 13px;
+  background-color: #fafafa;
+  padding: 5px 8px 7px 16px;
+  display: block;
+  -webkit-transition: background-color 0.1s;
+  -moz-transition: background-color 0.1s;
+  -o-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+#topbar ul ul a:hover {
+  background-color: #f0f0f0;
+}
+#topbar ul ul ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: -16px;
+  left: 206px;
+  padding: 16px 0 20px 0;
+  background-color: #fafafa;
+  text-align: left;
+  width: 180px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+}
+#topbar ul ul > li:hover > ul {
+  opacity: 1;
+  left: 190px;
+  visibility: visible;
+}
+#topbar ul ul a:hover {
+  background-color: #cc2c24;
+  color: #f0f0f0;
+}
+
+
+.content {
+	background-color: #FFF;
+	padding: 10px 0;
+	width: 80%;
+	float: left;
+}
+
+.footer {
+	padding: 10px 0;
+	background-color: #6F7D94;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}

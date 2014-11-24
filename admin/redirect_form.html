@@ -1,0 +1,24 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Redirection Menu</title>
+</head>
+
+<body>
+<form action="do_redirect.php" method="post">
+<p>What do you want to do?
+<select name="location">
+<option value="http://localhost/vish/create.php">Create</option>
+<option value="localhost/update.php">Update</option>
+<option value="localhost/delete.php">Delete</option>
+</select>
+<p><input type="submit" name="submit" value="Enter" />
+</form>
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST")
+{	header("Location : $location");
+}
+?>
+</body>
+</html>

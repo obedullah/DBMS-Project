@@ -1,0 +1,21 @@
+
+img
+{
+display: inline-block ;
+width:33px;
+ height:33px; 
+
+}
+
+
+
+input[type=checkbox] {
+    display:none;
+  }
+  
+input[type=checkbox] + label{ content:""; display: inline-block ; width:33px; height:33px;  background: url('../images/available_seat_img.gif') no-repeat 0 0; }
+
+ 
+ 
+input[type=checkbox]:checked  + label { background: url('../images/selected_seat_img.gif') no-repeat 0 0 ; }
+

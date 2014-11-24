@@ -1,0 +1,50 @@
+
+<html>
+<head>
+  <link href="menu.css" rel="stylesheet">
+   <link href="form.css" rel="stylesheet">
+<style>
+h1.serif{font-family:"Lucida Console",Times,serif;text-align:left;font-size:50px;color:#963}
+.error {color: #FF0000;}
+</style>
+</head>
+<body> 
+
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='adminindex.html'><span>Home</span></a></li>
+   <li class='has-sub'><a href='#'><span>Bus</span></a>
+      <ul>
+         <li><a href="http://localhost/vish/buscreate.php"><span>Create</span></a></li>
+          <li><a href="http://localhost/vish/busdel.php"><span>Delete</span></a></li>
+         <li class='last'><a href="http://localhost/vish/busupdate.php"><span>Update</span></a></li>
+      </ul>
+   </li>
+   <li><a href='#'><span>Route</span></a> 
+   		<ul>
+         <li><a href='distance.php'><span>Create</span></a></li>
+          <li><a href='http://localhost/vish/routedel.php'><span>Delete</span></a></li>
+         <li class='last'><a href='http://localhost/vish/routeupdate.php'><span>Update</span></a></li>
+      </ul></li>
+   <li class='last'><a href='#'><span>Schedule</span></a> <ul>
+         <li><a href='schedulecreate.php'><span>Create</span></a></li>
+          <li><a href='scheduledel.php'><span>Delete</span></a></li>
+         <li class='last'><a href='scheduleupdate.php'><span>Update</span></a></li>
+      </ul></li>
+</ul>
+</div>
+
+<h1 class="serif">Bus Update</h1>
+
+<p>Please enter the busid you want to update </p>
+	<form method="post" action="db2n.php"> 
+		<label for="busid">Busid:</label>
+		<input type="text" id="busid" name="busid"  required/> 
+		
+		<br><br>
+<input type="submit" name="Submit" value="Submit" />
+	</form>
+
+<a href="http://localhost/vish/adminindex.html" >Go back</a>
+</body>
+</html>

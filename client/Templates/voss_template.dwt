@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>HOME PAGE</title>
+<!-- TemplateEndEditable -->
+<link href="../css/edit1.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+  <div class="container"><!-- TemplateBeginEditable name="EditRegion4" -->
+  
+		<div class="header"><a href="#"><img src="../images/bus.jpg" alt="VOSS TRAVELS" name="Insert_logo" width="113" height="113" id="Insert_logo" style="background-color:#09C; display:block;" /></a> 
+        <!-- TemplateEndEditable -->
+  		</div>
+        
+        
+        <div id='cssmenu'>
+		<ul>
+		   <li class='active'><a href='index.html'><span>Home</span></a></li>
+		   <li class='has-sub'><a href='#'><span>Products</span></a>
+			      <ul>
+		        	 <li class='has-sub'><a href='#'><span>Product 1</span></a>
+        			   	 <ul>
+		    	           <li><a href='#'><span>Sub Item</span></a></li>
+        			       <li class='last'><a href='#'><span>Sub Item</span></a></li>
+		            	</ul>
+        		    </li>
+	   	         	<li class='has-sub'><a href='#'><span>Product 2</span></a>
+	       		    	 <ul>
+    	        	   		<li><a href='#'><span>Sub Item</span></a></li>
+        	       			<li class='last'><a href='#'><span>Sub Item</span></a></li>
+	        	    	</ul>
+    		    	 </li>
+      			</ul>
+   			</li>
+		 	<li><a href='#'><span>About</span></a></li>
+	   		<li class='last'><a href='#'><span>Contact</span></a></li>
+		</ul>
+		</div>
+  
+  <div class="sidebar1"><!-- TemplateBeginEditable name="EditRegion5" -->
+  
+    <ul class="nav">  
+      <li><a href="http://localhost:8080/f1/css_create_account.php">Create Account</a></li>
+         <li><a href="http://localhost:8080/f1/css_sign_in.php">Login</a></li>
+         <li><a href="http://localhost:8080/f1/css_findbus.php">Find Bus</a></li>
+         <li><a href="http://localhost:8080/f1/bookticket1.php">Book Ticket</a></li>
+         <li><a href="">View Routes</a></li>
+         <li><a href="">View Schedule of Next week</a></li>
+         <li><a href="">Schemes</a></li>
+         <li><a href="">Cancel Ticket</a></li>
+         <li><a href="">Cancelled Buses</a></li>
+         <li><a href="">Complaints</a></li>
+    </ul>
+
+<!-- end .sidebar1 -->
+<!-- TemplateEndEditable -->
+</div>
+  <div class="content">
+   <!-- TemplateBeginEditable name="editable" -->
+    <h1>CONTENTS</h1>  
+    <!-- end .content -->
+   <!-- TemplateEndEditable -->
+  </div>
+ 
+  <div class="footer">
+    <p align="center">&copy Copyright 2013 &bull;  VOSS TRAVELS &bull;  ALL RIGHTS RESERVED</p>
+    <!-- end .footer -->
+  </div>
+  <!-- end .container -->
+</div>
+</body>
+</html>
